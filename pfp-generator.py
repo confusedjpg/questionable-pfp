@@ -1,7 +1,7 @@
 import pygame
 from random import randint, choice
 
-WIDTH = HEIGHT = 256 # you can change this, doesn't have to be a perfect square'
+WIDTH = HEIGHT = 256 # you can change this, doesn't have to be a perfect square
 pygame.init()
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
